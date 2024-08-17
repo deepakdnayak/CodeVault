@@ -1,15 +1,13 @@
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import Course from './components/Course';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import Notes from './components/Notes';
-// import Display from './components/Display';
 import PDFView from './components/PDFView';
 import About from './components/About';
+import './App.css';
 
 function App() {
-    // <Display document={'ada_m1.pdf'} />
     return (
         <>
         <Router>
