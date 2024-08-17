@@ -1,6 +1,8 @@
-# CodeVault
+# CodeVault ![CodeVault](https://img.icons8.com/color/25/code.png) 
+
 
 A webpage that aims to help students by providing quick access to notes and guides.
+
 
 ## Available Scripts
 
