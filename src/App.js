@@ -4,9 +4,12 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import Notes from './components/Notes';
-import Display from './components/Display';
+// import Display from './components/Display';
+import PDFView from './components/PDFView';
+import About from './components/About';
 
 function App() {
+    // <Display document={'ada_m1.pdf'} />
     return (
         <>
         <Router>
@@ -19,8 +22,9 @@ function App() {
                 <Route exact path="/sem4" element={<Course semester="4" key="sem4" />}/>
                 <Route exact path="/sem5" element={<Home />}/>
                 <Route exact path="/sem6" element={<Home />}/>
-                <Route exact path="/about" element={<Notes/>}/>
-                <Route exact path="/display" element={<Display />}/> 
+                <Route exact path="/about" element={<About/>}/>
+                <Route exact path="/notes" element={<Notes/>}/>
+                <Route exact path="/view" element={<PDFView/>}/> 
             </Routes>
         </Router>
         </>

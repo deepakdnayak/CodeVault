@@ -23,7 +23,7 @@ const Course = (props) => {
             {courses.map((element)=> {
                 return (
                     <div className="col-md-4" key={element.courseCode}>
-                        <CourseItem courseName={element.courseName} courseCode={element.courseCode} credit={element.credit} lab={element.lab} />
+                        <CourseItem semester={props.semester} courseName={element.courseName} courseCode={element.courseCode} credit={element.credit} lab={element.lab} />
                     </div>
                 )
             })}

@@ -24,3 +24,4 @@ yarn-error.log*
 
 trial.json
 url.txt
+.env.local
